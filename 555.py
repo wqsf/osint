@@ -31,17 +31,17 @@ AUTHOR = "fxderal"
 # Define tools with updated module numbers
 tools = [
     # Network & Infrastructure (1-19)
-    {'number': '1', 'name': 'Associated Hosts', 'script': 'associated_hosts.py', 'section': 'Network & Infrastructure'},
+    {'number': '1', 'name': 'Hosts Asociados', 'script': 'associated_hosts.py', 'section': 'Network & Infrastructure'},
     {'number': '2', 'name': 'DNS Over HTTPS', 'script': 'dns_over_https.py', 'section': 'Network & Infrastructure'},
     {'number': '3', 'name': 'DNS Records', 'script': 'dns_records.py', 'section': 'Network & Infrastructure'},
     {'number': '4', 'name': 'DNSSEC Check', 'script': 'dnssec.py', 'section': 'Network & Infrastructure'},
-    {'number': '5', 'name': 'Domain Info', 'script': 'domain_info.py', 'section': 'Network & Infrastructure'},
-    {'number': '6', 'name': 'Domain Reputation Check', 'script': 'domain_reputation_check.py', 'section': 'Network & Infrastructure'},
-    {'number': '7', 'name': 'HTTP/2 and HTTP/3 Support Checker', 'script': 'http2_http3_checker.py', 'section': 'Network & Infrastructure'},
-    {'number': '8', 'name': 'IP Info', 'script': 'ip_info.py', 'section': 'Network & Infrastructure'},
-    {'number': '9', 'name': 'Open Ports Scan', 'script': 'open_ports.py', 'section': 'Network & Infrastructure'},
-    {'number': '10', 'name': 'Server Info', 'script': 'server_info.py', 'section': 'Network & Infrastructure'},
-    {'number': '11', 'name': 'Server Location', 'script': 'server_location.py', 'section': 'Network & Infrastructure'},
+    {'number': '5', 'name': 'Informacion del Dominio', 'script': 'domain_info.py', 'section': 'Network & Infrastructure'},
+    {'number': '6', 'name': 'Reputacion del Dominio checl', 'script': 'domain_reputation_check.py', 'section': 'Network & Infrastructure'},
+    {'number': '7', 'name': 'HTTP/2 y HTTP/3 Soporte Checker', 'script': 'http2_http3_checker.py', 'section': 'Network & Infrastructure'},
+    {'number': '8', 'name': 'Informacion de IP', 'script': 'ip_info.py', 'section': 'Network & Infrastructure'},
+    {'number': '9', 'name': 'Scanear Puertos Abiertos', 'script': 'open_ports.py', 'section': 'Network & Infrastructure'},
+    {'number': '10', 'name': 'Informacion del Servidor', 'script': 'server_info.py', 'section': 'Network & Infrastructure'},
+    {'number': '11', 'name': 'Localizacion del Servidor', 'script': 'server_location.py', 'section': 'Network & Infrastructure'},
     {'number': '12', 'name': 'SSL Chain Analysis', 'script': 'ssl_chain.py', 'section': 'Network & Infrastructure'},
     {'number': '13', 'name': 'SSL Expiry Alert', 'script': 'ssl_expiry.py', 'section': 'Network & Infrastructure'},
     {'number': '14', 'name': 'TLS Cipher Suites', 'script': 'tls_cipher_suites.py', 'section': 'Network & Infrastructure'},
@@ -49,26 +49,26 @@ tools = [
     {'number': '16', 'name': 'Traceroute', 'script': 'traceroute.py', 'section': 'Network & Infrastructure'},
     {'number': '17', 'name': 'TXT Records', 'script': 'txt_records.py', 'section': 'Network & Infrastructure'},
     {'number': '18', 'name': 'WHOIS Lookup', 'script': 'whois_lookup.py', 'section': 'Network & Infrastructure'},
-    {'number': '19', 'name': 'Zone Transfer', 'script': 'zonetransfer.py', 'section': 'Network & Infrastructure'},
+    {'number': '19', 'name': 'Transferencia de Zona', 'script': 'zonetransfer.py', 'section': 'Network & Infrastructure'},
 
     # Web Application Analysis (20-36)
-    {'number': '20', 'name': 'Archive History', 'script': 'archive_history.py', 'section': 'Web Application Analysis'},
-    {'number': '21', 'name': 'Broken Links Detection', 'script': 'broken_links.py', 'section': 'Web Application Analysis'},
+    {'number': '20', 'name': 'Historial de los Archivos', 'script': 'archive_history.py', 'section': 'Web Application Analysis'},
+    {'number': '21', 'name': 'Detector de links rotos', 'script': 'broken_links.py', 'section': 'Web Application Analysis'},
     {'number': '22', 'name': 'Carbon Footprint', 'script': 'carbon_footprint.py', 'section': 'Web Application Analysis'},
-    {'number': '23', 'name': 'CMS Detection', 'script': 'cms_detection.py', 'section': 'Web Application Analysis'},
-    {'number': '24', 'name': 'Cookies Analyzer', 'script': 'cookies.py', 'section': 'Web Application Analysis'},
-    {'number': '25', 'name': 'Content Discovery', 'script': 'content_discovery.py', 'section': 'Web Application Analysis'},
+    {'number': '23', 'name': 'Detector de CMS', 'script': 'cms_detection.py', 'section': 'Web Application Analysis'},
+    {'number': '24', 'name': 'Analizador de Cookies', 'script': 'cookies.py', 'section': 'Web Application Analysis'},
+    {'number': '25', 'name': 'Descubridor de Contenido', 'script': 'content_discovery.py', 'section': 'Web Application Analysis'},
     {'number': '26', 'name': 'Crawler', 'script': 'crawler.py', 'section': 'Web Application Analysis'},
     {'number': '27', 'name': 'Robots.txt Analyzer', 'script': 'crawl_rules.py', 'section': 'Web Application Analysis'},
-    {'number': '28', 'name': 'Directory Finder', 'script': 'directory_finder.py', 'section': 'Web Application Analysis'},
+    {'number': '28', 'name': 'Directorios Finder', 'script': 'directory_finder.py', 'section': 'Web Application Analysis'},
     {'number': '29', 'name': 'Email Harvesting', 'script': 'email_harvester.py', 'section': 'Web Application Analysis'},
     {'number': '30', 'name': 'Performance Monitoring', 'script': 'performance_monitoring.py', 'section': 'Web Application Analysis'},
     {'number': '31', 'name': 'Quality Metrics', 'script': 'quality_metrics.py', 'section': 'Web Application Analysis'},
     {'number': '32', 'name': 'Redirect Chain', 'script': 'redirect_chain.py', 'section': 'Web Application Analysis'},
     {'number': '33', 'name': 'Sitemap Parsing', 'script': 'sitemap.py', 'section': 'Web Application Analysis'},
-    {'number': '34', 'name': 'Social Media Presence Scan', 'script': 'social_media.py', 'section': 'Web Application Analysis'},
+    {'number': '34', 'name': 'Social Media Osint', 'script': 'social_media.py', 'section': 'Web Application Analysis'},
     {'number': '35', 'name': 'Technology Stack Detection', 'script': 'technology_stack.py', 'section': 'Web Application Analysis'},
-    {'number': '36', 'name': 'Third-Party Integrations', 'script': 'third_party_integrations.py', 'section': 'Web Application Analysis'},
+    {'number': '36', 'name': 'Integraciones de Terceros', 'script': 'third_party_integrations.py', 'section': 'Web Application Analysis'},
 
     # Security & Threat Intelligence (37-54)
     {'number': '37', 'name': 'Censys Reconnaissance', 'script': 'censys.py', 'section': 'Security & Threat Intelligence'},
@@ -181,7 +181,7 @@ def check_api_modules():
 # Function for BEAST MODE execution
 def beast_mode():
     clear_screen()
-    console.print("[bold red][*] Running BEAST MODE - Executing All Modules [/bold red]")
+    console.print("[bold red][*] Running OSINT EXTREMO - Ejecutando todos los modulos [/bold red]")
     api_status = check_api_modules()
     excluded_scripts = ['subdomain_takeover.py', 'data_leak.py']
     selected_modules = [tool['number'] for tool in tools if tool['script'] and tool['script'] not in excluded_scripts and tool['number'] != '00']
@@ -218,7 +218,7 @@ def execute_script(script_name, target):
 
 
 def run_modules(selected_modules, api_status, mode_name=None):
-    domain = Prompt.ask("[bold yellow]Enter the target domain or URL[/bold yellow]")
+    domain = Prompt.ask("[bold yellow]Porfavor ingresa el URL o el Dominio del target.[/bold yellow]")
     domain = clean_domain_input(domain)
     report_data = {}
 
@@ -232,7 +232,7 @@ def run_modules(selected_modules, api_status, mode_name=None):
                 report_data[module_name] = output
                 console.print(output)
         else:
-            console.print(f"[!] Invalid module number: {mod_number}", style="bold red")
+            console.print(f"[!] Numero de modulo invalido: {mod_number}", style="bold red")
 
     if mode_name:
         module_names = [mode_name]
@@ -243,7 +243,7 @@ def run_modules(selected_modules, api_status, mode_name=None):
 
     generate_report(report_data, domain, module_names)
 
-    Prompt.ask("\n[bold yellow]Press Enter to continue...[/bold yellow]")
+    Prompt.ask("\n[bold yellow]Presione Enter para continuar...[/bold yellow]")
     main()
 
 def main():
@@ -253,7 +253,7 @@ def main():
 
     try:
         while True:
-            choice = Prompt.ask("[bold red]root@argus:~#[/bold red]").strip()
+            choice = Prompt.ask("[bold magenta]root@555.osint:~#[/bold magenta]").strip()
 
             if choice == '00':
                 beast_mode()
@@ -267,14 +267,14 @@ def main():
                 selected_modules = [tool['number'] for tool in tools if tool['section'] == 'Security & Threat Intelligence']
                 run_modules(selected_modules, check_api_modules(), mode_name='All_Security_Tools')
             elif choice.lower() in ['exit', 'quit']:
-                console.print("[bold green]Exiting Argus. Goodbye![/bold green]")
+                console.print("[bold green]Cerrando 555.osint...[/bold green]")
                 sys.exit(0)
             else:
                 selected_modules = [mod.strip() for mod in choice.replace(',', ' ').split()]
                 if all(mod in tools_mapping for mod in selected_modules):
                     run_modules(selected_modules, check_api_modules())
                 else:
-                    console.print("[bold red]Invalid Input! Please choose valid options.[/bold red]")
+                    console.print("[bold red]Input invalido, porfavor ingrese una opcion valida.[/bold red]")
                     display_table()
 
     except KeyboardInterrupt:
